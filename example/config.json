@@ -1,0 +1,30 @@
+{
+  "level": "debug",
+  "development": false,
+  "disableCaller": true,
+  "disableStacktrace": true,
+  "encoding": "json",
+  "encoderConfig": {
+    "messageKey": "Msg",
+    "levelKey": "Level",
+    "timeKey": "Time",
+    "nameKey": "Name",
+    "callerKey": "Caller",
+    "stacktraceKey": "St",
+    "levelEncoder": "capital",
+    "timeEncoder": "iso8601",
+    "durationEncoder": "string",
+    "callerEncoder": "short"
+  },
+  "outputPaths": [
+    "stdout",
+    "example/json_out.log"
+  ],
+  "errorDispatcherPaths": [
+    "stderr",
+    "example/json_err.log"
+  ],
+  "errorOutputPaths": [
+    "stderr"
+  ]
+}

@@ -1,0 +1,5 @@
+package: github.com/emonuh/zap-error-dispatcher
+import:
+  - package: go.uber.org/zap
+    version: ^1
+  - package: gopkg.in/yaml.v2
