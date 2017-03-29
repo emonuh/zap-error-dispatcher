@@ -1,3 +1,3 @@
-{"Level":"ERROR","Time":"2017-03-29T10:19:35.890+0900","Msg":"error log"}
-{"Level":"DPANIC","Time":"2017-03-29T10:19:35.890+0900","Msg":"dpanic log","with":"with_value"}
-{"Level":"FATAL","Time":"2017-03-29T10:19:35.890+0900","Name":"named","Msg":"fatal log","with":"with_value"}
+{"Level":"ERROR","Time":"2017-03-29T13:38:26.238+0900","Msg":"error log"}
+{"Level":"DPANIC","Time":"2017-03-29T13:38:26.238+0900","Msg":"dpanic log","with":"with_value"}
+{"Level":"FATAL","Time":"2017-03-29T13:38:26.239+0900","Name":"named","Msg":"fatal log","with":"with_value"}
