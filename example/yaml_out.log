@@ -1,3 +1,0 @@
-2017-03-29T13:38:19.847+0900	DEBUG	debug log
-2017-03-29T13:38:19.847+0900	INFO	debug log	{"with": "with_value"}
-2017-03-29T13:38:19.847+0900	WARN	named	warn log	{"with": "with_value"}

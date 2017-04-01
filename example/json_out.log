@@ -1,3 +1,0 @@
-{"Level":"DEBUG","Time":"2017-03-29T13:38:26.238+0900","Msg":"debug log"}
-{"Level":"INFO","Time":"2017-03-29T13:38:26.238+0900","Msg":"debug log","with":"with_value"}
-{"Level":"WARN","Time":"2017-03-29T13:38:26.239+0900","Name":"named","Msg":"warn log","with":"with_value"}

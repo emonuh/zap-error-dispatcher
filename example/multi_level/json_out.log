@@ -1,0 +1,4 @@
+{"Level":"DEBUG","Time":"2017-03-31T22:32:18.219+0900","Msg":"debug log"}
+{"Level":"INFO","Time":"2017-03-31T22:32:18.219+0900","Msg":"debug log","with":"with_value"}
+{"Level":"WARN","Time":"2017-03-31T22:32:18.219+0900","Name":"named","Msg":"warn log","with":"with_value"}
+{"Level":"FATAL","Time":"2017-03-31T22:32:18.219+0900","Name":"named","Msg":"fatal log","with":"with_value"}

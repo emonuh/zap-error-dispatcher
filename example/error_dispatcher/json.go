@@ -1,21 +1,20 @@
 package main
 
 import (
+	"encoding/json"
 	"io/ioutil"
-
-	"gopkg.in/yaml.v2"
 
 	"github.com/emonuh/zap-error-dispatcher/config"
 	"go.uber.org/zap"
 )
 
 func main() {
-	configYaml, err := ioutil.ReadFile("example/config.yaml")
+	configJson, err := ioutil.ReadFile("example/error_dispatcher/config.json")
 	if err != nil {
 		panic(err)
 	}
 	var myConfig config.ErrorDispatcherConfig
-	if err := yaml.Unmarshal(configYaml, &myConfig); err != nil {
+	if err := json.Unmarshal(configJson, &myConfig); err != nil {
 		panic(err)
 	}
 	logger, err := myConfig.Build()

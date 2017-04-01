@@ -1,3 +1,0 @@
-2017-03-29T13:38:19.847+0900	ERROR	error log
-2017-03-29T13:38:19.847+0900	DPANIC	dpanic log	{"with": "with_value"}
-2017-03-29T13:38:19.847+0900	FATAL	named	fatal log	{"with": "with_value"}

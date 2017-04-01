@@ -1,0 +1,3 @@
+{"Level":"ERROR","Time":"2017-03-31T22:31:34.830+0900","Msg":"error log"}
+{"Level":"DPANIC","Time":"2017-03-31T22:31:34.830+0900","Msg":"dpanic log","with":"with_value"}
+{"Level":"FATAL","Time":"2017-03-31T22:31:34.831+0900","Name":"named","Msg":"fatal log","with":"with_value"}

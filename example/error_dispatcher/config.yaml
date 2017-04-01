@@ -1,0 +1,24 @@
+level: "debug"
+development: false
+disableCaller: true
+disableStacktrace: true
+encoding: "console"
+encoderConfig:
+  messageKey: "Msg"
+  levelKey: "Level"
+  timeKey: "Time"
+  nameKey: "Name"
+  callerKey: "Caller"
+  stacktraceKey: "St"
+  levelEncoder: "capital"
+  timeEncoder: "iso8601"
+  durationEncoder: "string"
+  callerEncoder: "short"
+outputPaths:
+  - "stdout"
+  - "example/error_dispatcher/yaml_out.log"
+errorDispatcherPaths:
+  - "stderr"
+  - "example/error_dispatcher/yaml_err.log"
+errorOutputPaths:
+  - "stderr"

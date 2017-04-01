@@ -16,9 +16,13 @@ encoderConfig:
   callerEncoder: "short"
 outputPaths:
   - "stdout"
-  - "example/yaml_out.log"
-errorDispatcherPaths:
-  - "stderr"
-  - "example/yaml_err.log"
+  - "example/multi_level/yaml_out.log"
 errorOutputPaths:
   - "stderr"
+levelPaths:
+  "error":
+    - "stderr"
+    - "example/multi_level/yaml_err.log"
+  "dpanic":
+      - "stderr"
+      - "example/multi_level/yaml_dpanic.log"

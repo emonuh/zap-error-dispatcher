@@ -18,11 +18,11 @@
   },
   "outputPaths": [
     "stdout",
-    "example/json_out.log"
+    "example/error_dispatcher/json_out.log"
   ],
   "errorDispatcherPaths": [
     "stderr",
-    "example/json_err.log"
+    "example/error_dispatcher/json_err.log"
   ],
   "errorOutputPaths": [
     "stderr"
